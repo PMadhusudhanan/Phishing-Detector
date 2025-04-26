@@ -4,104 +4,120 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 
-# Phishing Detection Tool 🛡️
-
-A lightweight Python CLI tool to detect potential phishing websites using URL analysis, SSL verification, and basic keyword detection.
-
----
-
-## 🚀 Features
-
-- ✅ Extracts domain and subdomain information
-- ✅ Checks for suspicious keywords in URLs
-- ✅ Validates SSL certificate status
-- ✅ Easy to use from the command line
-- ✅ Beginner-friendly and lightweight
+Absolutely Madhu! 🔥  
+Here’s a **professional, full updated `README.md`** you can directly copy-paste:
 
 ---
 
-## 📦 Installation
+# 🛡️ Phishing Detector Tool
 
-1. **Clone the repository**:
+A lightweight command-line tool to detect suspicious or phishing websites based on URL patterns, SSL status, and domain analysis.
+
+---
+
+## 📸 Demo
+
+```
+$ phishdetect https://example-login.com
+```
+
+Output:
+
+```
+[🔵] Checking URL: https://example-login.com
+[🛡️] SSL Certificate: VALID
+[⚠️] Suspicious Keywords Detected: login
+[🔴] Warning: This website may be a phishing attempt!
+```
+
+---
+
+## 📥 Installation
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/PMadhusudhanan/Phishing-Detector.git
 cd Phishing-Detector
+chmod +x install.sh
+./install.sh
 ```
 
-2. **Install required packages**:
+✅ After installation, you can use it **anywhere** from the terminal as a **global tool**!
+
+---
+
+## 🚀 Usage
+
+Simple one-line command:
 
 ```bash
-pip install -r requirements.txt
+phishdetect https://suspicious-site.com
 ```
+
+No need to activate any virtual environment manually!
 
 ---
 
-## ⚡ Usage
+## 🛠️ Features
 
-Run the tool by providing a URL:
+- 🔍 **URL Pattern Analysis** (detects suspicious words like "login", "secure", "update")
+- 🔒 **SSL Certificate Validation**
+- 🌐 **TLD (Top-Level Domain) Check** for suspicious domains
+- 🎨 **Beautiful CLI Output** using colors
+- ⚡ **Fast & Lightweight**, no heavy libraries
+
+---
+
+## 📦 Dependencies
+
+- `colorama`
+- `tldextract`
+- `requests`
+
+(Handled automatically by the install script.)
+
+---
+
+## 🧹 Uninstallation
+
+If you want to remove the tool:
 
 ```bash
-python phishing_detector.py
+sudo rm /usr/local/bin/phishdetect
 ```
 
-Follow the prompts to input a website link.
+---
 
-Example:
+## 🤝 Contribution
 
-```bash
-Enter a URL: http://example-login.security-update.com
-
-```
-## 📸 Demo
-
-![Phishing Detector Demo](demo.png)
-
+Pull requests are welcome!  
+If you have any improvements (like new detection techniques), feel free to contribute.
 
 ---
 
-## 🛠️ Built With
+## 📄 License
 
-- Python 🐍
-- Libraries: `tldextract`, `colorama`, `ssl`, `socket`
-
----
-
-## 📄 Requirements
-
-- Python 3.x
-- Internet connection (for SSL checking)
+This project is licensed under the **MIT License** — feel free to use it in your own tools and research!
 
 ---
 
-## 🤔 How It Works
+# 💬 Contact
 
-- Extracts the domain from the URL
-- Searches for suspicious keywords like `login`, `secure`, `account`, `bank`
-- Checks if SSL certificate is valid
-- Warns if anything looks suspicious
+🔹 **GitHub**: [PMadhusudhanan](https://github.com/PMadhusudhanan)  
+🔹 **LinkedIn**: https://www.linkedin.com/in/madhusudhanan-p-242538310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 
 ---
 
-## 📚 Future Improvements
-
-- Add machine learning based URL classification
-- Create a browser extension version
-- Real-time monitoring of URLs
+# 🚀 Star this repo if you find it helpful!
 
 ---
 
-## 🙏 Acknowledgments
+# 📢 Notes:
+- Make sure you have **Python 3.8+** installed.
+- For Kali Linux users: use `sudo pip install` if necessary.
 
-This project was created as part of a learning exercise in cybersecurity and phishing detection.
 
----
-
-## 📬 Contact
-
-- GitHub: [PMadhusudhanan](https://github.com/PMadhusudhanan)
-- Email:  pmadhusudhanan2020@gmail.com
-  
 
 
 
