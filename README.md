@@ -96,33 +96,9 @@ This project was created as part of a learning exercise in cybersecurity and phi
 
 - GitHub: [PMadhusudhanan](https://github.com/PMadhusudhanan)
 - Email:  pmadhusudhanan2020@gmail.com
-- 
+  
 
----
 
-⭐ Feel free to **star** this repository if you like it!
-```
 
----
-
-# 🧠 How to use this:
-
-1. Open your project folder.
-2. If you already have a `README.md`, delete it.
-3. Create a **new file** named `README.md`.
-4. Copy-paste all the content above into it.
-5. Save it.
-
-✅ Now when you push to GitHub, your project will look clean and professional!
-
----
-
-# 🎯 Final Tip:
-
-If you want, I can also give you **badges** (like this):
-
-```
-![Python](https://img.shields.io/badge/Made%20with-Python-blue)
-```
 
 
