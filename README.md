@@ -52,12 +52,11 @@ Example:
 ```bash
 Enter a URL: http://example-login.security-update.com
 
+```
 ## 📸 Demo
 
-![Phishing Detector Demo](./demo.png)
+![Phishing Detector Demo](demo.png)
 
-
-```
 
 ---
 
