@@ -125,7 +125,4 @@ If you want, I can also give you **badges** (like this):
 ![Python](https://img.shields.io/badge/Made%20with-Python-blue)
 ```
 
-to make the README even cooler! 🚀
 
-👉 Would you like me to show you how to add those badges too? 🎖️  
-(Only takes 1 minute!)
