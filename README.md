@@ -1,12 +1,9 @@
-Perfect! 🔥  
-You want a **ready-made README.md** template to make your GitHub project look **professional**?  
-I'll give you a **full copy-paste** version now. 📄✨
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Made with ❤️](https://img.shields.io/badge/Made%20with-Love-red)
+![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
----
 
-# 📄 Here's a complete `README.md` you can directly copy:
-
-```markdown
 # Phishing Detection Tool 🛡️
 
 A lightweight Python CLI tool to detect potential phishing websites using URL analysis, SSL verification, and basic keyword detection.
