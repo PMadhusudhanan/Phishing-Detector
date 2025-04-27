@@ -3,10 +3,6 @@
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-
-Absolutely Madhu! 🔥  
-Here’s a **professional, full updated `README.md`** you can directly copy-paste:
-
 ---
 
 # 🛡️ Phishing Detector Tool
