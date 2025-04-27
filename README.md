@@ -116,6 +116,7 @@ This project is licensed under the **MIT License** — feel free to use it in yo
 # 📢 Notes:
 - Make sure you have **Python 3.8+** installed.
 - For Kali Linux users: use `sudo pip install` if necessary.
+<<<<<<< HEAD
 
 
 
@@ -123,3 +124,5 @@ This project is licensed under the **MIT License** — feel free to use it in yo
 
 
 
+=======
+>>>>>>> b8439a9 (Save work before pulling)
