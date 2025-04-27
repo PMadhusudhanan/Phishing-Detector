@@ -1,23 +1,15 @@
 #!/bin/bash
+set -e
 
-echo "🔵 Installing Phishing Detector Tool..."
+# Install dependencies via apt if possible
+sudo apt update
+sudo apt install -y python3-colorama python3-tldextract python3-pip
 
-# Step 1: Install required python packages globally
-echo "🔵 Installing Python packages (colorama, tldextract)..."
-sudo pip install colorama tldextract
+# Install any missing pip packages globally (careful with --break-system-packages)
+sudo pip3 install --break-system-packages some-other-package
 
-# Step 2: Make script executable
-echo "🔵 Making phishdetect executable..."
-chmod +x phishdetect.py
-
-# Step 3: Move script to /usr/local/bin
-echo "🔵 Moving to /usr/local/bin/ as 'phishdetect' command..."
+# Copy your script to /usr/local/bin and make executable
 sudo cp phishdetect.py /usr/local/bin/phishdetect
+sudo chmod +x /usr/local/bin/phishdetect
 
-# Step 4: Success message
-echo "✅ Installation complete! You can now use it like:"
-echo ""
-echo "   phishdetect https://example.com"
-echo ""
-
-exit 0
+echo "Installed phishdetect system-wide. Run with: phishdetect <url>"
